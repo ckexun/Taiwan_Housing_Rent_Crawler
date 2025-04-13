@@ -1,0 +1,43 @@
+name: Daily Taiwan Housing Rent Crawler
+
+# 觸發action的時機
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 * * *'  # 每天的0點0分觸發，台灣時間是每天的8點0分觸發
+  workflow_dispatch:  
+
+jobs:
+  Run_Crawler:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code   
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4.5.0
+        with:
+          python-version: "3.12.9"
+    
+      - name: Install dependencies
+      - run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Run Python File
+        run: |
+          python static.py
+          python api.py
+
+      - name: Push To GitHub
+        run: |
+          git config --global user.name "Daily_Taiwan_Housing_Rent_Crawler"
+          git config --global user.email "clairetgn9315@gmail.com"
+          git add static.json
+          git commit -m "Daily update static.json" || echo "No changes to commit"
+          git add api.csv 
+          git commit -m "Daily update api.csv by bot" || echo "No changes to commit"
+          git push origin main
