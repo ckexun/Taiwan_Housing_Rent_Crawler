@@ -86,7 +86,7 @@ def CrawlByAreas(city="桃園市", areas=["中壢區"]):
     for i in range(1, page+1):
       params["page"] = i
       CrawlByPage(params, city, area)
-      time.sleep(random.uniform(2, 6)) # 以免被forbidden(隨機更像人類)
+      time.sleep(random.uniform(2, 5)) # 以免被forbidden(隨機更像人類)
 
 def CrawlByPage(params, city="桃園市", area="中壢區"):
   # 參考URL: https://www.rakuya.com.tw/rent/rent_search?search=city&city=4&zipcode=320&usecode=7%2C8%2C9%2C10&sort=21&upd=1
@@ -147,7 +147,7 @@ if __name__ == "__main__":
   ]
   city_dict, city_area_dict = get_CIDandZIPCODE()
   results = {}
-  citys = ["台北市","桃園市"]
+  citys = ["桃園市"]
   CrawlByCities(citys)
   with open("static.json", "w", encoding="utf-8-sig") as f:
       json.dump(results, f, ensure_ascii=False, indent=2)
