@@ -148,7 +148,10 @@ if __name__ == "__main__":
   city_dict, city_area_dict = get_CIDandZIPCODE()
   results = {}
   citys = ["桃園市"]
-  CrawlByCities(citys)
+  if  city_dict:
+     CrawlByCities(citys)
+  else:
+     print("For bandwidth, please try again later.")
   with open("static.json", "w", encoding="utf-8-sig") as f:
       json.dump(results, f, ensure_ascii=False, indent=2)
 
