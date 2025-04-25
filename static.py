@@ -146,12 +146,13 @@ if __name__ == "__main__":
       "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X)",
   ]
   city_dict, city_area_dict = get_CIDandZIPCODE()
+  if not city_dict:
+     print("For bandwidth, please try again later.")
+     exit(0)
   results = {}
   citys = ["桃園市"]
-  if  city_dict:
-     CrawlByCities(citys)
-  else:
-     print("For bandwidth, please try again later.")
+  CrawlByCities(citys)
+     
   with open("static.json", "w", encoding="utf-8-sig") as f:
       json.dump(results, f, ensure_ascii=False, indent=2)
 
