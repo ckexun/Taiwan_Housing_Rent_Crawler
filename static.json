@@ -34,7 +34,7 @@
         "layout": "3房2廳2衛",
         "size": "33坪",
         "floor": "2/10樓",
-        "update_time": "4小時前更新",
+        "update_time": "5小時前更新",
         "view_count": 2
       },
       {
@@ -46,7 +46,7 @@
         "layout": "2房1廳1衛",
         "size": "29.14坪",
         "floor": "12/16樓",
-        "update_time": "4小時前更新",
+        "update_time": "5小時前更新",
         "view_count": 3
       },
       {
@@ -106,7 +106,7 @@
         "layout": "2房1廳1衛",
         "size": "18坪",
         "floor": "15/17樓",
-        "update_time": "5小時前更新",
+        "update_time": "6小時前更新",
         "view_count": 3
       },
       {
@@ -118,7 +118,7 @@
         "layout": "1衛",
         "size": "27.9坪",
         "floor": "6/14樓",
-        "update_time": "7小時前更新",
+        "update_time": "8小時前更新",
         "view_count": 2
       },
       {
@@ -298,7 +298,7 @@
         "layout": "2房2廳1衛",
         "size": "15.48坪",
         "floor": "5/21樓",
-        "update_time": "8小時前更新",
+        "update_time": "9小時前更新",
         "view_count": 2
       },
       {
@@ -310,7 +310,7 @@
         "layout": "2房2廳1衛",
         "size": "32坪",
         "floor": "2/17樓",
-        "update_time": "8小時前更新",
+        "update_time": "9小時前更新",
         "view_count": 0
       },
       {
@@ -322,7 +322,7 @@
         "layout": "3房2廳2衛",
         "size": "32.6坪",
         "floor": "13/14樓",
-        "update_time": "8小時前更新",
+        "update_time": "9小時前更新",
         "view_count": 2
       },
       {
@@ -922,7 +922,7 @@
         "layout": "3房2廳2衛",
         "size": "26.9坪",
         "floor": "13/23樓",
-        "update_time": "12小時前更新",
+        "update_time": "13小時前更新",
         "view_count": 2
       },
       {
@@ -946,7 +946,7 @@
         "layout": "1房1廳1衛",
         "size": "12.62坪",
         "floor": "4/21樓",
-        "update_time": "13小時前更新",
+        "update_time": "14小時前更新",
         "view_count": 3
       },
       {
@@ -958,7 +958,7 @@
         "layout": "2房2廳1衛",
         "size": "13.76坪",
         "floor": "14/15樓",
-        "update_time": "13小時前更新",
+        "update_time": "14小時前更新",
         "view_count": 2
       },
       {
@@ -1034,30 +1034,6 @@
         "view_count": 0
       },
       {
-        "title": "近體育園區宜誠璽悅美屋",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=09f04e308920913&from=v1",
-        "address": "龍岡路三段",
-        "price": "20,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "2房2廳1衛",
-        "size": "32.49坪",
-        "floor": "2/14樓",
-        "update_time": "23小時前更新",
-        "view_count": 3
-      },
-      {
-        "title": "青埔近高鐵站大三房附傢俱",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0fb3c1281334323&from=v1",
-        "address": "青商路",
-        "price": "30,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "3房2廳2衛",
-        "size": "64.87坪",
-        "floor": "9/12樓",
-        "update_time": "23小時前更新",
-        "view_count": 2
-      },
-      {
         "title": "大院采鑽美美套房",
         "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0a6c8c311227598&from=v1",
         "address": "元化路二段",
@@ -1094,18 +1070,6 @@
         "view_count": 0
       },
       {
-        "title": "青埔高鐵高樓景觀精裝三房",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=00430d297233288&from=v1",
-        "address": "青峰路一段",
-        "price": "29,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "3房2廳1衛",
-        "size": "36.25坪",
-        "floor": "13/17樓",
-        "update_time": "23小時前更新",
-        "view_count": 2
-      },
-      {
         "title": "近高鐵詠美館美妝３房車位",
         "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0fbedb30672612a&from=v1",
         "address": "領航南路二段",
@@ -1138,6 +1102,42 @@
         "layout": "3房2廳2衛",
         "size": "51.14坪",
         "floor": "14/15樓",
+        "update_time": "23小時前更新",
+        "view_count": 2
+      },
+      {
+        "title": "近體育園區宜誠璽悅美屋",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=09f04e308920913&from=v1",
+        "address": "龍岡路三段",
+        "price": "20,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "2房2廳1衛",
+        "size": "32.49坪",
+        "floor": "2/14樓",
+        "update_time": "23小時前更新",
+        "view_count": 3
+      },
+      {
+        "title": "美麗歐洲高樓三房車位",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0a7781311449815&from=v1",
+        "address": "中園路",
+        "price": "28,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "3房2廳2衛",
+        "size": "42.57坪",
+        "floor": "13/15樓",
+        "update_time": "23小時前更新",
+        "view_count": 0
+      },
+      {
+        "title": "青埔近高鐵站大三房附傢俱",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0fb3c1281334323&from=v1",
+        "address": "青商路",
+        "price": "30,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "3房2廳2衛",
+        "size": "64.87坪",
+        "floor": "9/12樓",
         "update_time": "23小時前更新",
         "view_count": 2
       },
@@ -1190,16 +1190,16 @@
         "view_count": 0
       },
       {
-        "title": "金鑽名第三房平面車位",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=04e9bd306399851&from=v1",
-        "address": "興仁路二段",
-        "price": "20,000元",
-        "room_type": "整層住家/華廈",
-        "layout": "3房2廳2衛",
-        "size": "41.54坪",
-        "floor": "3/9樓",
+        "title": "近高鐵站前新銳２房車位",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=02cdc330935064e&from=v1",
+        "address": "青心路",
+        "price": "26,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "2房2廳1衛",
+        "size": "32.52坪",
+        "floor": "12/21樓",
         "update_time": "23小時前更新",
-        "view_count": 3
+        "view_count": 2
       },
       {
         "title": "新潤君頤高樓層兩房兩衛",
@@ -1212,6 +1212,18 @@
         "floor": "15/19樓",
         "update_time": "23小時前更新",
         "view_count": 2
+      },
+      {
+        "title": "金鑽名第三房平面車位",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=04e9bd306399851&from=v1",
+        "address": "興仁路二段",
+        "price": "20,000元",
+        "room_type": "整層住家/華廈",
+        "layout": "3房2廳2衛",
+        "size": "41.54坪",
+        "floor": "3/9樓",
+        "update_time": "23小時前更新",
+        "view_count": 3
       },
       {
         "title": "中壢前站商辦",
@@ -1286,18 +1298,6 @@
         "view_count": 2
       },
       {
-        "title": "近高鐵站前新銳２房車位",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=02cdc330935064e&from=v1",
-        "address": "青心路",
-        "price": "26,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "2房2廳1衛",
-        "size": "32.52坪",
-        "floor": "12/21樓",
-        "update_time": "23小時前更新",
-        "view_count": 2
-      },
-      {
         "title": "近體育園區智慧家美三房",
         "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=02c847304207204&from=v1",
         "address": "後興路一段",
@@ -1308,6 +1308,18 @@
         "floor": "4/8樓",
         "update_time": "23小時前更新",
         "view_count": 2
+      },
+      {
+        "title": "站前新銳2房車",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0edbc7312279851&from=v1",
+        "address": "青心路",
+        "price": "28,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "2房2廳1衛",
+        "size": "29.19坪",
+        "floor": "18/20樓",
+        "update_time": "23小時前更新",
+        "view_count": 0
       },
       {
         "title": "【神馬】站前新銳邊間大3房車大棟距",
@@ -1356,18 +1368,6 @@
         "floor": "7/12樓",
         "update_time": "23小時前更新",
         "view_count": 2
-      },
-      {
-        "title": "站前新銳2房車",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0edbc7312279851&from=v1",
-        "address": "青心路",
-        "price": "28,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "2房2廳1衛",
-        "size": "29.19坪",
-        "floor": "18/20樓",
-        "update_time": "23小時前更新",
-        "view_count": 0
       },
       {
         "title": "米蘭達明亮景觀３房車位",
@@ -1574,18 +1574,6 @@
         "view_count": 1
       },
       {
-        "title": "園首之道頂樓美屋",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=00d29531230995f&from=v1",
-        "address": "青商路",
-        "price": "32,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "3房2廳2衛",
-        "size": "46.61坪",
-        "floor": "15/15樓",
-        "update_time": "23小時前更新",
-        "view_count": 0
-      },
-      {
         "title": "國都苑★兩房車位出租",
         "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=04f833311825616&from=v1",
         "address": "永裕路",
@@ -1598,16 +1586,16 @@
         "view_count": 0
       },
       {
-        "title": "雙子星高樓三房車位",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0a3b6f30096448c&from=v1",
-        "address": "高鐵南路二段",
-        "price": "88,000元",
+        "title": "海華之星美三房車位",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0b3ba231021000b&from=v1",
+        "address": "環北路",
+        "price": "31,000元",
         "room_type": "整層住家/電梯大廈",
-        "layout": "3房2廳3衛",
-        "size": "120.24坪",
-        "floor": "14/14樓",
+        "layout": "3房2廳2衛",
+        "size": "45.44坪",
+        "floor": "8/22樓",
         "update_time": "23小時前更新",
-        "view_count": 1
+        "view_count": 2
       },
       {
         "title": "國都苑★兩房車位出租",
@@ -1718,6 +1706,18 @@
         "view_count": 2
       },
       {
+        "title": "園首之道頂樓美屋",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=00d29531230995f&from=v1",
+        "address": "青商路",
+        "price": "32,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "3房2廳2衛",
+        "size": "46.61坪",
+        "floor": "15/15樓",
+        "update_time": "23小時前更新",
+        "view_count": 0
+      },
+      {
         "title": "中壢林森溫馨套房",
         "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0dc0c429904941b&from=v1",
         "address": "林森路",
@@ -1726,30 +1726,6 @@
         "layout": "1房1衛",
         "size": "5坪",
         "floor": "3",
-        "update_time": "23小時前更新",
-        "view_count": 2
-      },
-      {
-        "title": "宜雄絢耀兩房車位",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0b4104311449805&from=v1",
-        "address": "松義路",
-        "price": "27,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "2房1廳1衛",
-        "size": "40.74坪",
-        "floor": "13/22樓",
-        "update_time": "23小時前更新",
-        "view_count": 0
-      },
-      {
-        "title": "中央大學旁精美三房車位",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0c449c302703992&from=v1",
-        "address": "內厝五路",
-        "price": "30,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "3房2廳2衛",
-        "size": "49.87坪",
-        "floor": "8/11樓",
         "update_time": "23小時前更新",
         "view_count": 2
       },
@@ -1766,16 +1742,16 @@
         "view_count": 1
       },
       {
-        "title": "近內壢國中美透天",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=09e87729060718d&from=v1",
-        "address": "復華街",
-        "price": "47,500元",
-        "room_type": "整層住家/透天厝",
-        "layout": "6房3廳4衛",
-        "size": "25.85坪",
-        "floor": "1~4/4樓",
+        "title": "宜雄絢耀兩房車位",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0b4104311449805&from=v1",
+        "address": "松義路",
+        "price": "27,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "2房1廳1衛",
+        "size": "40.74坪",
+        "floor": "13/22樓",
         "update_time": "23小時前更新",
-        "view_count": 2
+        "view_count": 0
       },
       {
         "title": "時代苑高樓層三房車位",
@@ -1790,14 +1766,26 @@
         "view_count": 2
       },
       {
-        "title": "【玖禾】【租】A18高鐵站前頂級商辦",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0ecbde308401059&from=v1",
-        "address": "高鐵站前西路一段",
-        "price": "73,000元",
+        "title": "近內壢國中美透天",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=09e87729060718d&from=v1",
+        "address": "復華街",
+        "price": "47,500元",
+        "room_type": "整層住家/透天厝",
+        "layout": "6房3廳4衛",
+        "size": "25.85坪",
+        "floor": "1~4/4樓",
+        "update_time": "23小時前更新",
+        "view_count": 2
+      },
+      {
+        "title": "中央大學旁精美三房車位",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0c449c302703992&from=v1",
+        "address": "內厝五路",
+        "price": "30,000元",
         "room_type": "整層住家/電梯大廈",
         "layout": "3房2廳2衛",
-        "size": "90.42坪",
-        "floor": "8/18樓",
+        "size": "49.87坪",
+        "floor": "8/11樓",
         "update_time": "23小時前更新",
         "view_count": 2
       },
@@ -1822,6 +1810,18 @@
         "layout": "3房2廳2衛",
         "size": "38.42坪",
         "floor": "5/20樓",
+        "update_time": "23小時前更新",
+        "view_count": 2
+      },
+      {
+        "title": "【玖禾】【租】A18高鐵站前頂級商辦",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0ecbde308401059&from=v1",
+        "address": "高鐵站前西路一段",
+        "price": "73,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "3房2廳2衛",
+        "size": "90.42坪",
+        "floor": "8/18樓",
         "update_time": "23小時前更新",
         "view_count": 2
       },
@@ -1858,7 +1858,7 @@
         "layout": "2房2廳1衛",
         "size": "22坪",
         "floor": "14/15樓",
-        "update_time": "23小時前更新",
+        "update_time": "1天前更新",
         "view_count": 2
       },
       {
@@ -3708,7 +3708,7 @@
         "layout": "1房1衛",
         "size": "6坪",
         "floor": "4/6樓",
-        "update_time": "3小時前更新",
+        "update_time": "4小時前更新",
         "view_count": 3
       },
       {
@@ -3732,7 +3732,7 @@
         "layout": "3房2廳3衛",
         "size": "30坪",
         "floor": "6/7樓",
-        "update_time": "5小時前更新",
+        "update_time": "6小時前更新",
         "view_count": 2
       },
       {
@@ -3744,7 +3744,7 @@
         "layout": "4房2廳2衛",
         "size": "51坪",
         "floor": "8/11樓",
-        "update_time": "5小時前更新",
+        "update_time": "6小時前更新",
         "view_count": 2
       },
       {
@@ -3756,7 +3756,7 @@
         "layout": "3房2廳2衛",
         "size": "39坪",
         "floor": "1/8樓",
-        "update_time": "5小時前更新",
+        "update_time": "6小時前更新",
         "view_count": 3
       },
       {
@@ -3952,18 +3952,6 @@
         "view_count": 3
       },
       {
-        "title": "可入籍補助．東門國小旁溫馨大四房含車位",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0b945d306601749&from=v1",
-        "address": "春日路",
-        "price": "33,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "4房2廳2衛",
-        "size": "58坪",
-        "floor": "4/9樓",
-        "update_time": "6小時前更新",
-        "view_count": 2
-      },
-      {
         "title": "永順國小旁優質社區高質感溫馨美居含車位",
         "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=01a068288754069&from=v1",
         "address": "永順街",
@@ -3974,6 +3962,18 @@
         "floor": "13/14樓",
         "update_time": "6小時前更新",
         "view_count": 3
+      },
+      {
+        "title": "可入籍補助．東門國小旁溫馨大四房含車位",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0b945d306601749&from=v1",
+        "address": "春日路",
+        "price": "33,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "4房2廳2衛",
+        "size": "58坪",
+        "floor": "4/9樓",
+        "update_time": "6小時前更新",
+        "view_count": 2
       },
       {
         "title": "可入籍補助．近武陵愛買生活便利優質套房含水費網路",
@@ -4192,18 +4192,6 @@
         "view_count": 2
       },
       {
-        "title": "竹城御賞✦正藝文高樓層物件設備齊全附汽機車位",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=03e7a4308951823&from=v1",
-        "address": "中埔二街",
-        "price": "33,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "4房2廳2衛",
-        "size": "47坪",
-        "floor": "9/14樓",
-        "update_time": "6小時前更新",
-        "view_count": 3
-      },
-      {
         "title": "璞麗８Ｆ✦站前雙戶大氣美宅空間寬敞 稀有雙車位",
         "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=04bc4830483779d&from=v1",
         "address": "復興路",
@@ -4238,6 +4226,18 @@
         "floor": "5/12樓",
         "update_time": "6小時前更新",
         "view_count": 2
+      },
+      {
+        "title": "竹城御賞✦正藝文高樓層物件設備齊全附汽機車位",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=03e7a4308951823&from=v1",
+        "address": "中埔二街",
+        "price": "33,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "4房2廳2衛",
+        "size": "47坪",
+        "floor": "9/14樓",
+        "update_time": "6小時前更新",
+        "view_count": 3
       },
       {
         "title": "南通路電梯分套✦租金含水 網 附機車位 設備齊全",
@@ -4288,18 +4288,6 @@
         "view_count": 2
       },
       {
-        "title": "權視界✦中路高樓層景觀戶 傢俱電全 近向陽公園",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0a70dd305612610&from=v1",
-        "address": "力行路",
-        "price": "29,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "2房2廳1衛",
-        "size": "37坪",
-        "floor": "14/15樓",
-        "update_time": "6小時前更新",
-        "view_count": 2
-      },
-      {
         "title": "寶祥縣寶✦愛買商圈 ２＋１房設備齊全屋況絕佳",
         "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=04ef8a308144830&from=v1",
         "address": "中山路",
@@ -4310,6 +4298,18 @@
         "floor": "11/17樓",
         "update_time": "6小時前更新",
         "view_count": 3
+      },
+      {
+        "title": "權視界✦中路高樓層景觀戶 傢俱電全 近向陽公園",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0a70dd305612610&from=v1",
+        "address": "力行路",
+        "price": "29,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "2房2廳1衛",
+        "size": "37坪",
+        "floor": "14/15樓",
+        "update_time": "6小時前更新",
+        "view_count": 2
       },
       {
         "title": "介壽路透天分套✦近陽明公園 有對外窗 生活機能佳",
@@ -4348,18 +4348,6 @@
         "view_count": 2
       },
       {
-        "title": "竹城東京✦近南崁交流道 百萬精緻裝潢  交通便利",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=00efc0296520285&from=v1",
-        "address": "中正路",
-        "price": "35,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "3房2廳2衛",
-        "size": "39坪",
-        "floor": "10/14樓",
-        "update_time": "6小時前更新",
-        "view_count": 2
-      },
-      {
         "title": "帝璽✦近慈文國中 大坪數格局方正好規劃",
         "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=019dfc299778114&from=v1",
         "address": "中正路",
@@ -4368,6 +4356,18 @@
         "layout": "3房2廳3衛",
         "size": "75坪",
         "floor": "16/29樓",
+        "update_time": "6小時前更新",
+        "view_count": 2
+      },
+      {
+        "title": "竹城東京✦近南崁交流道 百萬精緻裝潢  交通便利",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=00efc0296520285&from=v1",
+        "address": "中正路",
+        "price": "35,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "3房2廳2衛",
+        "size": "39坪",
+        "floor": "10/14樓",
         "update_time": "6小時前更新",
         "view_count": 2
       },
@@ -4656,7 +4656,7 @@
         "layout": "3房2廳2衛",
         "size": "55坪",
         "floor": "11/15樓",
-        "update_time": "8小時前更新",
+        "update_time": "9小時前更新",
         "view_count": 2
       },
       {
@@ -4668,7 +4668,7 @@
         "layout": "3房2廳2衛",
         "size": "55坪",
         "floor": "11/15樓",
-        "update_time": "8小時前更新",
+        "update_time": "9小時前更新",
         "view_count": 2
       },
       {
@@ -4680,7 +4680,7 @@
         "layout": "2房2廳1衛",
         "size": "19坪",
         "floor": "15/15樓",
-        "update_time": "8小時前更新",
+        "update_time": "9小時前更新",
         "view_count": 2
       },
       {
@@ -4692,7 +4692,7 @@
         "layout": "3房2廳2衛",
         "size": "63.34坪",
         "floor": "9/12樓",
-        "update_time": "9小時前更新",
+        "update_time": "10小時前更新",
         "view_count": 0
       },
       {
@@ -4728,7 +4728,7 @@
         "layout": "3房2廳2衛",
         "size": "45.02坪",
         "floor": "6/9樓",
-        "update_time": "12小時前更新",
+        "update_time": "13小時前更新",
         "view_count": 2
       },
       {
@@ -4740,7 +4740,7 @@
         "layout": "1房1衛",
         "size": "12坪",
         "floor": "4/6樓",
-        "update_time": "12小時前更新",
+        "update_time": "13小時前更新",
         "view_count": 2
       },
       {
@@ -4752,7 +4752,7 @@
         "layout": "5房2廳6衛",
         "size": "52坪",
         "floor": "3/6樓",
-        "update_time": "12小時前更新",
+        "update_time": "13小時前更新",
         "view_count": 2
       },
       {
@@ -4896,7 +4896,7 @@
         "layout": "3房2廳2衛",
         "size": "46坪",
         "floor": "2/13樓",
-        "update_time": "13小時前更新",
+        "update_time": "14小時前更新",
         "view_count": 0
       },
       {
@@ -4936,6 +4936,42 @@
         "view_count": 3
       },
       {
+        "title": "近敏盛大三房",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=09a11f29218906e&from=v1",
+        "address": "經國路",
+        "price": "20,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "3房2廳2衛",
+        "size": "44.81坪",
+        "floor": "10/16樓",
+        "update_time": "23小時前更新",
+        "view_count": 2
+      },
+      {
+        "title": "國泰維也納三房車位",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=097305306725695&from=v1",
+        "address": "宏昌八街",
+        "price": "25,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "3房2廳2衛",
+        "size": "50.87坪",
+        "floor": "12/14樓",
+        "update_time": "23小時前更新",
+        "view_count": 2
+      },
+      {
+        "title": "桃園市區２房車位",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0560fd304526647&from=v1",
+        "address": "北新街",
+        "price": "28,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "2房2廳1衛",
+        "size": "38.79坪",
+        "floor": "11/11樓",
+        "update_time": "23小時前更新",
+        "view_count": 2
+      },
+      {
         "title": "美裝潢，竹城三房平面車位",
         "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0a0f2c306234655&from=v1",
         "address": "中埔二街",
@@ -4944,6 +4980,18 @@
         "layout": "3房2廳2衛",
         "size": "40.5坪",
         "floor": "8/15樓",
+        "update_time": "23小時前更新",
+        "view_count": 2
+      },
+      {
+        "title": "桃園站前邊間三房車位",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0bfaa830821605e&from=v1",
+        "address": "鎮江街",
+        "price": "29,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "3房2廳2衛",
+        "size": "35.56坪",
+        "floor": "5/14樓",
         "update_time": "23小時前更新",
         "view_count": 2
       },
@@ -4968,42 +5016,6 @@
         "layout": "1房1廳1衛",
         "size": "19.24坪",
         "floor": "14/14樓",
-        "update_time": "23小時前更新",
-        "view_count": 2
-      },
-      {
-        "title": "桃園站前邊間三房車位",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0bfaa830821605e&from=v1",
-        "address": "鎮江街",
-        "price": "29,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "3房2廳2衛",
-        "size": "35.56坪",
-        "floor": "5/14樓",
-        "update_time": "23小時前更新",
-        "view_count": 2
-      },
-      {
-        "title": "桃園市區２房車位",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0560fd304526647&from=v1",
-        "address": "北新街",
-        "price": "28,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "2房2廳1衛",
-        "size": "38.79坪",
-        "floor": "11/11樓",
-        "update_time": "23小時前更新",
-        "view_count": 2
-      },
-      {
-        "title": "國泰維也納三房車位",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=097305306725695&from=v1",
-        "address": "宏昌八街",
-        "price": "25,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "3房2廳2衛",
-        "size": "50.87坪",
-        "floor": "12/14樓",
         "update_time": "23小時前更新",
         "view_count": 2
       },
@@ -5044,6 +5056,18 @@
         "view_count": 2
       },
       {
+        "title": "鶴岡精緻高樓３房車位",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=007d9f311155647&from=v1",
+        "address": "大興西路二段",
+        "price": "35,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "3房2廳2衛",
+        "size": "45.25坪",
+        "floor": "11/12樓",
+        "update_time": "23小時前更新",
+        "view_count": 0
+      },
+      {
         "title": "近藝文大睦澄品美三房車位",
         "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=05c738312004125&from=v1",
         "address": "大連二街",
@@ -5066,102 +5090,6 @@
         "floor": "9/15樓",
         "update_time": "23小時前更新",
         "view_count": 2
-      },
-      {
-        "title": "鶴岡精緻高樓３房車位",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=007d9f311155647&from=v1",
-        "address": "大興西路二段",
-        "price": "35,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "3房2廳2衛",
-        "size": "45.25坪",
-        "floor": "11/12樓",
-        "update_time": "23小時前更新",
-        "view_count": 0
-      },
-      {
-        "title": "近敏盛大三房",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=09a11f29218906e&from=v1",
-        "address": "經國路",
-        "price": "20,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "3房2廳2衛",
-        "size": "44.81坪",
-        "floor": "10/16樓",
-        "update_time": "23小時前更新",
-        "view_count": 2
-      },
-      {
-        "title": "小檜溪東騰兩房美宅",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=06591731200381c&from=v1",
-        "address": "朝陽街",
-        "price": "29,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "2房2廳1衛",
-        "size": "33.42坪",
-        "floor": "8/14樓",
-        "update_time": "23小時前更新",
-        "view_count": 0
-      },
-      {
-        "title": "人潮黃金店住要租",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=05ba05301908121&from=v1",
-        "address": "大興路",
-        "price": "55,000元",
-        "room_type": "整層住家/透天厝",
-        "layout": "3房4廳4衛",
-        "size": "76.46坪",
-        "floor": "1~2/4樓",
-        "update_time": "23小時前更新",
-        "view_count": 1
-      },
-      {
-        "title": "東國街華夏兩房",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=022f8b312224027&from=v1",
-        "address": "東國街",
-        "price": "24,000元",
-        "room_type": "整層住家/華廈",
-        "layout": "2房2廳2衛",
-        "size": "24.35坪",
-        "floor": "3/5樓",
-        "update_time": "23小時前更新",
-        "view_count": 0
-      },
-      {
-        "title": "藝文區巴黎伯爵三房車位",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=00eba2305730443&from=v1",
-        "address": "莊敬路一段",
-        "price": "23,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "3房2廳2衛",
-        "size": "47.66坪",
-        "floor": "4/16樓",
-        "update_time": "23小時前更新",
-        "view_count": 3
-      },
-      {
-        "title": "國際村３房",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=013b7f311012009&from=v1",
-        "address": "莊敬路一段",
-        "price": "24,500元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "3房2廳2衛",
-        "size": "31.46坪",
-        "floor": "6/17樓",
-        "update_time": "23小時前更新",
-        "view_count": 0
-      },
-      {
-        "title": "大德一街電梯３房",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0ddedb311449915&from=v1",
-        "address": "大德一街",
-        "price": "22,000元",
-        "room_type": "整層住家/華廈",
-        "layout": "3房2廳2衛",
-        "size": "36.67坪",
-        "floor": "2/5樓",
-        "update_time": "23小時前更新",
-        "view_count": 0
       },
       {
         "title": "中路水秀白金花園２房車位",
@@ -5188,18 +5116,6 @@
         "view_count": 2
       },
       {
-        "title": "將相琚豪邸美裝潢３房車位",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=043c0b309444977&from=v1",
-        "address": "中正路",
-        "price": "59,800元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "3房2廳3衛",
-        "size": "86.99坪",
-        "floor": "9/18樓",
-        "update_time": "23小時前更新",
-        "view_count": 2
-      },
-      {
         "title": "民生路巷內全棟",
         "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=01bdb430766399b&from=v1",
         "address": "民生路",
@@ -5212,6 +5128,42 @@
         "view_count": 2
       },
       {
+        "title": "東國街華夏兩房",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=022f8b312224027&from=v1",
+        "address": "東國街",
+        "price": "24,000元",
+        "room_type": "整層住家/華廈",
+        "layout": "2房2廳2衛",
+        "size": "24.35坪",
+        "floor": "3/5樓",
+        "update_time": "23小時前更新",
+        "view_count": 0
+      },
+      {
+        "title": "ＥＱ城堡大兩房大空間",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0d923f299437181&from=v1",
+        "address": "大業路二段",
+        "price": "24,000元",
+        "room_type": "整層住家/樓中樓",
+        "layout": "2房2廳2衛",
+        "size": "37.47坪",
+        "floor": "5~6/10樓",
+        "update_time": "23小時前更新",
+        "view_count": 2
+      },
+      {
+        "title": "台北檳城兩房車位",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=004f49311732299&from=v1",
+        "address": "民有東路",
+        "price": "25,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "2房1廳1衛",
+        "size": "34.82坪",
+        "floor": "9/13樓",
+        "update_time": "23小時前更新",
+        "view_count": 0
+      },
+      {
         "title": "中悅桂冠四房四衛",
         "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=09fbe3310148420&from=v1",
         "address": "經國路",
@@ -5222,6 +5174,30 @@
         "floor": "14/14樓",
         "update_time": "23小時前更新",
         "view_count": 1
+      },
+      {
+        "title": "藝文區巴黎伯爵三房車位",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=00eba2305730443&from=v1",
+        "address": "莊敬路一段",
+        "price": "23,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "3房2廳2衛",
+        "size": "47.66坪",
+        "floor": "4/16樓",
+        "update_time": "23小時前更新",
+        "view_count": 3
+      },
+      {
+        "title": "國際村３房",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=013b7f311012009&from=v1",
+        "address": "莊敬路一段",
+        "price": "24,500元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "3房2廳2衛",
+        "size": "31.46坪",
+        "floor": "6/17樓",
+        "update_time": "23小時前更新",
+        "view_count": 0
       },
       {
         "title": "全新落成南法莊園三房車位",
@@ -5260,26 +5236,50 @@
         "view_count": 2
       },
       {
-        "title": "ＥＱ城堡大兩房大空間",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0d923f299437181&from=v1",
-        "address": "大業路二段",
-        "price": "24,000元",
-        "room_type": "整層住家/樓中樓",
-        "layout": "2房2廳2衛",
-        "size": "37.47坪",
-        "floor": "5~6/10樓",
+        "title": "大德一街電梯３房",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0ddedb311449915&from=v1",
+        "address": "大德一街",
+        "price": "22,000元",
+        "room_type": "整層住家/華廈",
+        "layout": "3房2廳2衛",
+        "size": "36.67坪",
+        "floor": "2/5樓",
+        "update_time": "23小時前更新",
+        "view_count": 0
+      },
+      {
+        "title": "人潮黃金店住要租",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=05ba05301908121&from=v1",
+        "address": "大興路",
+        "price": "55,000元",
+        "room_type": "整層住家/透天厝",
+        "layout": "3房4廳4衛",
+        "size": "76.46坪",
+        "floor": "1~2/4樓",
+        "update_time": "23小時前更新",
+        "view_count": 1
+      },
+      {
+        "title": "將相琚豪邸美裝潢３房車位",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=043c0b309444977&from=v1",
+        "address": "中正路",
+        "price": "59,800元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "3房2廳3衛",
+        "size": "86.99坪",
+        "floor": "9/18樓",
         "update_time": "23小時前更新",
         "view_count": 2
       },
       {
-        "title": "台北檳城兩房車位",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=004f49311732299&from=v1",
-        "address": "民有東路",
-        "price": "25,000元",
+        "title": "小檜溪東騰兩房美宅",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=06591731200381c&from=v1",
+        "address": "朝陽街",
+        "price": "29,000元",
         "room_type": "整層住家/電梯大廈",
-        "layout": "2房1廳1衛",
-        "size": "34.82坪",
-        "floor": "9/13樓",
+        "layout": "2房2廳1衛",
+        "size": "33.42坪",
+        "floor": "8/14樓",
         "update_time": "23小時前更新",
         "view_count": 0
       },
@@ -5296,28 +5296,28 @@
         "view_count": 2
       },
       {
-        "title": "中悅桂冠誠意出租",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0e21f9308491151&from=v1",
-        "address": "經國路",
-        "price": "60,000元",
+        "title": "竹城新宿四房車位",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0e6e8d27680066c&from=v1",
+        "address": "大業路一段",
+        "price": "38,000元",
         "room_type": "整層住家/電梯大廈",
-        "layout": "4房2廳3衛",
-        "size": "77.97坪",
-        "floor": "14/14樓",
+        "layout": "4房2廳2衛",
+        "size": "43.32坪",
+        "floor": "13/14樓",
         "update_time": "23小時前更新",
         "view_count": 2
       },
       {
-        "title": "新站京華三房車位",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0ad35f31115580b&from=v1",
-        "address": "建國路",
-        "price": "27,000元",
-        "room_type": "整層住家/華廈",
-        "layout": "3房2廳2衛",
-        "size": "33.32坪",
-        "floor": "2/10樓",
+        "title": "天母之星優質兩房",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0b2f95305159904&from=v1",
+        "address": "民有五街",
+        "price": "25,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "2房2廳2衛",
+        "size": "29.03坪",
+        "floor": "2/13樓",
         "update_time": "23小時前更新",
-        "view_count": 0
+        "view_count": 2
       },
       {
         "title": "精美兩房２房＋１室有車位",
@@ -5524,28 +5524,28 @@
         "view_count": 1
       },
       {
-        "title": "璞淘元２房美宅",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0b81fe305143185&from=v1",
-        "address": "幸福路",
-        "price": "35,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "2房2廳2衛",
-        "size": "48.63坪",
-        "floor": "4/14樓",
+        "title": "同德十二街．採光邊間透天",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0ed273308943465&from=v1",
+        "address": "同德十二街",
+        "price": "40,000元",
+        "room_type": "整層住家/透天厝",
+        "layout": "4房2廳3衛",
+        "size": "49.74坪",
+        "floor": "1~4/4樓",
         "update_time": "23小時前更新",
-        "view_count": 1
+        "view_count": 2
       },
       {
-        "title": "國泰巴黎花都面公園三房",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=09b40e305903205&from=v1",
-        "address": "國鼎一街",
-        "price": "20,000元",
+        "title": "宜誠金品大空間三房車位",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0ed9e830623470f&from=v1",
+        "address": "民有東路",
+        "price": "26,500元",
         "room_type": "整層住家/電梯大廈",
         "layout": "3房2廳2衛",
-        "size": "38.2坪",
-        "floor": "4/16樓",
+        "size": "42.04坪",
+        "floor": "11/11樓",
         "update_time": "23小時前更新",
-        "view_count": 3
+        "view_count": 2
       },
       {
         "title": "宜誠金品大空間三房車位",
@@ -8294,7 +8294,7 @@
         "layout": "3房3廳2衛",
         "size": "64.55坪",
         "floor": "整棟/2樓",
-        "update_time": "",
+        "update_time": "17分鐘前更新",
         "view_count": 2
       },
       {
@@ -8366,7 +8366,7 @@
         "layout": "開放式格局",
         "size": "57.59坪",
         "floor": "1/12樓",
-        "update_time": "8小時前更新",
+        "update_time": "9小時前更新",
         "view_count": 0
       },
       {
@@ -8680,7 +8680,7 @@
         "layout": "3房1廳2衛",
         "size": "26.38坪",
         "floor": "12/12樓",
-        "update_time": "2小時前更新",
+        "update_time": "3小時前更新",
         "view_count": 0
       },
       {
@@ -8840,18 +8840,6 @@
         "view_count": 2
       },
       {
-        "title": "【新夢想】租案鴻築新巴黎高樓2房車美寓",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0d60af304705502&from=v1",
-        "address": "金山街",
-        "price": "22,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "2房1廳1衛",
-        "size": "37.79坪",
-        "floor": "10/15樓",
-        "update_time": "23小時前更新",
-        "view_count": 2
-      },
-      {
         "title": "【新夢想】埔心站前豪華四套房",
         "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0d6e08307860458&from=v1",
         "address": "中興路",
@@ -8862,6 +8850,18 @@
         "floor": "4/4樓",
         "update_time": "23小時前更新",
         "view_count": 3
+      },
+      {
+        "title": "【新夢想】租案鴻築新巴黎高樓2房車美寓",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0d60af304705502&from=v1",
+        "address": "金山街",
+        "price": "22,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "2房1廳1衛",
+        "size": "37.79坪",
+        "floor": "10/15樓",
+        "update_time": "23小時前更新",
+        "view_count": 2
       },
       {
         "title": "薪家坡可短租2房2廳",
@@ -9402,7 +9402,7 @@
         "layout": "1房1衛",
         "size": "7坪",
         "floor": "4/5樓",
-        "update_time": "13小時前更新",
+        "update_time": "14小時前更新",
         "view_count": 2
       },
       {
@@ -9466,14 +9466,26 @@
         "view_count": 0
       },
       {
-        "title": "竹風鳳凰二期高樓兩房車位",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0fbf3d303690261&from=v1",
-        "address": "仁德一路",
-        "price": "21,000元",
+        "title": "都心悅美綠意三房車位",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=094bfe310167305&from=v1",
+        "address": "介壽路二段",
+        "price": "25,000元",
         "room_type": "整層住家/電梯大廈",
-        "layout": "2房2廳1衛",
-        "size": "39.96坪",
-        "floor": "8/15樓",
+        "layout": "3房2廳2衛",
+        "size": "56.84坪",
+        "floor": "4/12樓",
+        "update_time": "23小時前更新",
+        "view_count": 2
+      },
+      {
+        "title": "近興仁夜市兩房兩衛浴出租",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0f13d728017125d&from=v1",
+        "address": "建德路",
+        "price": "20,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "2房2廳2衛",
+        "size": "30.14坪",
+        "floor": "2/14樓",
         "update_time": "23小時前更新",
         "view_count": 2
       },
@@ -9488,18 +9500,6 @@
         "floor": "5/9樓",
         "update_time": "23小時前更新",
         "view_count": 0
-      },
-      {
-        "title": "近興仁夜市兩房兩衛浴出租",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0f13d728017125d&from=v1",
-        "address": "建德路",
-        "price": "20,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "2房2廳2衛",
-        "size": "30.14坪",
-        "floor": "2/14樓",
-        "update_time": "23小時前更新",
-        "view_count": 2
       },
       {
         "title": "墨爾本高樓三房車位",
@@ -9538,6 +9538,42 @@
         "view_count": 0
       },
       {
+        "title": "君臨天下大空間美屋",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0bc6ef309988803&from=v1",
+        "address": "忠勇六街",
+        "price": "69,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "4房2廳4衛",
+        "size": "109.96坪",
+        "floor": "7/19樓",
+        "update_time": "23小時前更新",
+        "view_count": 1
+      },
+      {
+        "title": "麗寶豐洲傢俱齊全三房車位",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=03b617306769491&from=v1",
+        "address": "建德路",
+        "price": "25,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "3房2廳2衛",
+        "size": "44.65坪",
+        "floor": "2/13樓",
+        "update_time": "23小時前更新",
+        "view_count": 2
+      },
+      {
+        "title": "御藏面公園三房含車位",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=01726b31231070b&from=v1",
+        "address": "仁德二路",
+        "price": "22,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "3房2廳2衛",
+        "size": "48.98坪",
+        "floor": "8/13樓",
+        "update_time": "23小時前更新",
+        "view_count": 0
+      },
+      {
         "title": "面公園景觀大三房有車位",
         "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0cd451287644071&from=v1",
         "address": "豐田一路",
@@ -9560,42 +9596,6 @@
         "floor": "2/15樓",
         "update_time": "23小時前更新",
         "view_count": 2
-      },
-      {
-        "title": "麗寶豐洲傢俱齊全三房車位",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=03b617306769491&from=v1",
-        "address": "建德路",
-        "price": "25,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "3房2廳2衛",
-        "size": "44.65坪",
-        "floor": "2/13樓",
-        "update_time": "23小時前更新",
-        "view_count": 2
-      },
-      {
-        "title": "君臨天下大空間美屋",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0bc6ef309988803&from=v1",
-        "address": "忠勇六街",
-        "price": "69,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "4房2廳4衛",
-        "size": "109.96坪",
-        "floor": "7/19樓",
-        "update_time": "23小時前更新",
-        "view_count": 1
-      },
-      {
-        "title": "御藏面公園三房含車位",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=01726b31231070b&from=v1",
-        "address": "仁德二路",
-        "price": "22,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "3房2廳2衛",
-        "size": "48.98坪",
-        "floor": "8/13樓",
-        "update_time": "23小時前更新",
-        "view_count": 0
       },
       {
         "title": "御藏美裝潢兩房車位",
@@ -9634,6 +9634,30 @@
         "view_count": 2
       },
       {
+        "title": "大湳優質兩房",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0ee7b9310210618&from=v1",
+        "address": "義勇街",
+        "price": "20,000元",
+        "room_type": "整層住家/華廈",
+        "layout": "2房1廳1衛",
+        "size": "24.46坪",
+        "floor": "3/5樓",
+        "update_time": "23小時前更新",
+        "view_count": 2
+      },
+      {
+        "title": "八德擴大重劃區透天",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=082657303692194&from=v1",
+        "address": "豐田二路",
+        "price": "30,000元",
+        "room_type": "整層住家/透天厝",
+        "layout": "4房3廳3衛",
+        "size": "72.31坪",
+        "floor": "1~4/4樓",
+        "update_time": "23小時前更新",
+        "view_count": 3
+      },
+      {
         "title": "都心悅四房車位",
         "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=097fa4305220296&from=v1",
         "address": "介壽路二段",
@@ -9642,18 +9666,6 @@
         "layout": "4房2廳2衛",
         "size": "61.49坪",
         "floor": "7/13樓",
-        "update_time": "23小時前更新",
-        "view_count": 2
-      },
-      {
-        "title": "鄰近介壽路",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=02ed6d197067551&from=v1",
-        "address": "思源街",
-        "price": "32,000元",
-        "room_type": "整層住家/透天厝",
-        "layout": "2房1廳2衛",
-        "size": "32.86坪",
-        "floor": "1~2/2樓",
         "update_time": "23小時前更新",
         "view_count": 2
       },
@@ -9682,6 +9694,18 @@
         "view_count": 2
       },
       {
+        "title": "鄰近介壽路",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=02ed6d197067551&from=v1",
+        "address": "思源街",
+        "price": "32,000元",
+        "room_type": "整層住家/透天厝",
+        "layout": "2房1廳2衛",
+        "size": "32.86坪",
+        "floor": "1~2/2樓",
+        "update_time": "23小時前更新",
+        "view_count": 2
+      },
+      {
         "title": "源美學高樓景觀３房車位",
         "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0c99d830820098b&from=v1",
         "address": "仁德路",
@@ -9694,28 +9718,16 @@
         "view_count": 2
       },
       {
-        "title": "大湳優質兩房",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0ee7b9310210618&from=v1",
-        "address": "義勇街",
-        "price": "20,000元",
+        "title": "稀有大湳三房",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=030475310167299&from=v1",
+        "address": "和義街",
+        "price": "25,000元",
         "room_type": "整層住家/華廈",
-        "layout": "2房1廳1衛",
-        "size": "24.46坪",
-        "floor": "3/5樓",
+        "layout": "3房2廳2衛",
+        "size": "53.9坪",
+        "floor": "3/10樓",
         "update_time": "23小時前更新",
         "view_count": 2
-      },
-      {
-        "title": "八德擴大重劃區透天",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=082657303692194&from=v1",
-        "address": "豐田二路",
-        "price": "30,000元",
-        "room_type": "整層住家/透天厝",
-        "layout": "4房3廳3衛",
-        "size": "72.31坪",
-        "floor": "1~4/4樓",
-        "update_time": "23小時前更新",
-        "view_count": 3
       },
       {
         "title": "桃大極三房車位",
@@ -9754,16 +9766,16 @@
         "view_count": 2
       },
       {
-        "title": "稀有大湳三房",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=030475310167299&from=v1",
-        "address": "和義街",
-        "price": "25,000元",
+        "title": "有誠意！溫馨三房車位！",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=023a22304207295&from=v1",
+        "address": "建國路",
+        "price": "22,000元",
         "room_type": "整層住家/華廈",
         "layout": "3房2廳2衛",
-        "size": "53.9坪",
-        "floor": "3/10樓",
+        "size": "40.02坪",
+        "floor": "4/8樓",
         "update_time": "23小時前更新",
-        "view_count": 2
+        "view_count": 3
       },
       {
         "title": "三本雲上美妝出租",
@@ -9790,30 +9802,6 @@
         "view_count": 2
       },
       {
-        "title": "有誠意！溫馨三房車位！",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=023a22304207295&from=v1",
-        "address": "建國路",
-        "price": "22,000元",
-        "room_type": "整層住家/華廈",
-        "layout": "3房2廳2衛",
-        "size": "40.02坪",
-        "floor": "4/8樓",
-        "update_time": "23小時前更新",
-        "view_count": 3
-      },
-      {
-        "title": "皇翔百老匯三房車位●蛇",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0d5aa3302784639&from=v1",
-        "address": "建德路",
-        "price": "32,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "3房2廳2衛",
-        "size": "57.37坪",
-        "floor": "6/18樓",
-        "update_time": "23小時前更新",
-        "view_count": 1
-      },
-      {
         "title": "大湳稀有美裝潢三房",
         "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0edf8f30835676e&from=v1",
         "address": "重慶街",
@@ -9822,6 +9810,18 @@
         "layout": "3房2廳2衛",
         "size": "44.29坪",
         "floor": "11/15樓",
+        "update_time": "23小時前更新",
+        "view_count": 2
+      },
+      {
+        "title": "八德桃鶯路大空間１樓公寓",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0ef46d309010710&from=v1",
+        "address": "桃鶯路",
+        "price": "35,000元",
+        "room_type": "整層住家/公寓",
+        "layout": "3房2廳2衛",
+        "size": "28.99坪",
+        "floor": "1/5樓",
         "update_time": "23小時前更新",
         "view_count": 2
       },
@@ -9838,16 +9838,16 @@
         "view_count": 2
       },
       {
-        "title": "八德桃鶯路大空間１樓公寓",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0ef46d309010710&from=v1",
-        "address": "桃鶯路",
-        "price": "35,000元",
-        "room_type": "整層住家/公寓",
+        "title": "皇翔百老匯三房車位●蛇",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0d5aa3302784639&from=v1",
+        "address": "建德路",
+        "price": "32,000元",
+        "room_type": "整層住家/電梯大廈",
         "layout": "3房2廳2衛",
-        "size": "28.99坪",
-        "floor": "1/5樓",
+        "size": "57.37坪",
+        "floor": "6/18樓",
         "update_time": "23小時前更新",
-        "view_count": 2
+        "view_count": 1
       },
       {
         "title": "大成龍門美三房",
@@ -10400,7 +10400,7 @@
         "layout": "4房2廳2衛",
         "size": "62.48坪",
         "floor": "6/8樓",
-        "update_time": "51分鐘前更新",
+        "update_time": "55分鐘前更新",
         "view_count": 0
       },
       {
@@ -10584,14 +10584,26 @@
         "view_count": 0
       },
       {
-        "title": "長榮祥邸大三房車位",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0fb99c311732287&from=v1",
-        "address": "南祥路",
-        "price": "30,000元",
+        "title": "中悅帝寶露臺帝王戶",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0a6fc029640751a&from=v1",
+        "address": "中正路",
+        "price": "250,000元",
         "room_type": "整層住家/電梯大廈",
-        "layout": "3房2廳2衛",
-        "size": "54.96坪",
-        "floor": "8/14樓",
+        "layout": "5房3廳6.5衛",
+        "size": "263.52坪",
+        "floor": "4/29樓",
+        "update_time": "23小時前更新",
+        "view_count": 2
+      },
+      {
+        "title": "佳陞豐景全新四房",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=03259931121497d&from=v1",
+        "address": "埤腳街",
+        "price": "35,000元",
+        "room_type": "整層住家/華廈",
+        "layout": "4房2廳2衛",
+        "size": "60.01坪",
+        "floor": "9/9樓",
         "update_time": "23小時前更新",
         "view_count": 0
       },
@@ -10604,30 +10616,6 @@
         "layout": "2房2廳2衛",
         "size": "40.05坪",
         "floor": "5/14樓",
-        "update_time": "23小時前更新",
-        "view_count": 2
-      },
-      {
-        "title": "中高樓景觀３房",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=000f3e304301558&from=v1",
-        "address": "南山路一段",
-        "price": "28,500元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "3房2廳2衛",
-        "size": "39.38坪",
-        "floor": "8/20樓",
-        "update_time": "23小時前更新",
-        "view_count": 2
-      },
-      {
-        "title": "中高樓景觀３房",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=000f3e304301558&from=v1",
-        "address": "南山路一段",
-        "price": "28,500元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "3房2廳2衛",
-        "size": "39.38坪",
-        "floor": "8/20樓",
         "update_time": "23小時前更新",
         "view_count": 2
       },
@@ -10656,16 +10644,28 @@
         "view_count": 0
       },
       {
-        "title": "長榮祥邸大三房車位",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0fb99c311732287&from=v1",
-        "address": "南祥路",
-        "price": "30,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "3房2廳2衛",
-        "size": "54.96坪",
-        "floor": "8/14樓",
+        "title": "佳陞豐景全新四房",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=03259931121497d&from=v1",
+        "address": "埤腳街",
+        "price": "35,000元",
+        "room_type": "整層住家/華廈",
+        "layout": "4房2廳2衛",
+        "size": "60.01坪",
+        "floor": "9/9樓",
         "update_time": "23小時前更新",
         "view_count": 0
+      },
+      {
+        "title": "中悅帝寶露臺帝王戶",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0a6fc029640751a&from=v1",
+        "address": "中正路",
+        "price": "250,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "5房3廳6.5衛",
+        "size": "263.52坪",
+        "floor": "4/29樓",
+        "update_time": "23小時前更新",
+        "view_count": 2
       },
       {
         "title": "公園翫溫馨２＋１車位",
@@ -11062,7 +11062,7 @@
         "layout": "1房1衛",
         "size": "8坪",
         "floor": "4/5樓",
-        "update_time": "7小時前更新",
+        "update_time": "8小時前更新",
         "view_count": 0
       },
       {
@@ -11074,7 +11074,7 @@
         "layout": "3房2廳2衛",
         "size": "28坪",
         "floor": "12/12樓",
-        "update_time": "7小時前更新",
+        "update_time": "8小時前更新",
         "view_count": 0
       },
       {
@@ -11098,7 +11098,7 @@
         "layout": "2房2廳1衛",
         "size": "35.02坪",
         "floor": "14/15樓",
-        "update_time": "9小時前更新",
+        "update_time": "10小時前更新",
         "view_count": 0
       },
       {
@@ -11222,6 +11222,30 @@
         "view_count": 2
       },
       {
+        "title": "小資家庭好選擇",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0f06e531014838a&from=v1",
+        "address": "樂學路",
+        "price": "28,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "3房2廳2衛",
+        "size": "44.52坪",
+        "floor": "14/15樓",
+        "update_time": "23小時前更新",
+        "view_count": 2
+      },
+      {
+        "title": "麗寶快樂家三房",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0cbc40301773457&from=v1",
+        "address": "文青路",
+        "price": "29,800元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "3房2廳2衛",
+        "size": "36.78坪",
+        "floor": "13/22樓",
+        "update_time": "23小時前更新",
+        "view_count": 2
+      },
+      {
         "title": "文華天際優質三房",
         "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0c8884285707480&from=v1",
         "address": "華亞三路",
@@ -11242,30 +11266,6 @@
         "layout": "3房2廳2衛",
         "size": "43.77坪",
         "floor": "7/22樓",
-        "update_time": "23小時前更新",
-        "view_count": 2
-      },
-      {
-        "title": "麗寶快樂家三房",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0cbc40301773457&from=v1",
-        "address": "文青路",
-        "price": "29,800元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "3房2廳2衛",
-        "size": "36.78坪",
-        "floor": "13/22樓",
-        "update_time": "23小時前更新",
-        "view_count": 2
-      },
-      {
-        "title": "稀有釋出大三房",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=062e88304527020&from=v1",
-        "address": "文七二街",
-        "price": "29,000元",
-        "room_type": "整層住家/華廈",
-        "layout": "3房2廳2衛",
-        "size": "34.03坪",
-        "floor": "4/5樓",
         "update_time": "23小時前更新",
         "view_count": 2
       },
@@ -11366,42 +11366,6 @@
         "view_count": 2
       },
       {
-        "title": "Ａ７甲子園附家具三房車位",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0c1872308044964&from=v1",
-        "address": "文化一路",
-        "price": "38,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "3房2廳2衛",
-        "size": "43.64坪",
-        "floor": "15/24樓",
-        "update_time": "23小時前更新",
-        "view_count": 2
-      },
-      {
-        "title": "★優質★甲子園三房車位",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0e58a1296834188&from=v1",
-        "address": "文化一路",
-        "price": "29,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "3房2廳2衛",
-        "size": "46.49坪",
-        "floor": "7/24樓",
-        "update_time": "23小時前更新",
-        "view_count": 2
-      },
-      {
-        "title": "富宇上城兩房廁所開窗出租",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0feaeb306478996&from=v1",
-        "address": "文禾路",
-        "price": "25,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "2房2廳1衛",
-        "size": "33.02坪",
-        "floor": "2/24樓",
-        "update_time": "23小時前更新",
-        "view_count": 2
-      },
-      {
         "title": "Ａ８富堡大湖兩房兩衛",
         "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0de5e330647922e&from=v1",
         "address": "文三一街",
@@ -11434,6 +11398,42 @@
         "layout": "2房2廳1.5衛",
         "size": "36.29坪",
         "floor": "18/24樓",
+        "update_time": "23小時前更新",
+        "view_count": 2
+      },
+      {
+        "title": "富宇上城兩房廁所開窗出租",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0feaeb306478996&from=v1",
+        "address": "文禾路",
+        "price": "25,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "2房2廳1衛",
+        "size": "33.02坪",
+        "floor": "2/24樓",
+        "update_time": "23小時前更新",
+        "view_count": 2
+      },
+      {
+        "title": "★優質★甲子園三房車位",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0e58a1296834188&from=v1",
+        "address": "文化一路",
+        "price": "29,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "3房2廳2衛",
+        "size": "46.49坪",
+        "floor": "7/24樓",
+        "update_time": "23小時前更新",
+        "view_count": 2
+      },
+      {
+        "title": "Ａ７甲子園附家具三房車位",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0c1872308044964&from=v1",
+        "address": "文化一路",
+        "price": "38,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "3房2廳2衛",
+        "size": "43.64坪",
+        "floor": "15/24樓",
         "update_time": "23小時前更新",
         "view_count": 2
       },
@@ -12048,7 +12048,7 @@
         "layout": "1房",
         "size": "20坪",
         "floor": "4/4樓",
-        "update_time": "52分鐘前更新",
+        "update_time": "1小時前更新",
         "view_count": 0
       },
       {
@@ -12124,18 +12124,6 @@
         "view_count": 0
       },
       {
-        "title": "渴望旁三房電梯華廈 ┌租┐13000元/月(含管)",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=032262311482689&from=v1",
-        "address": "中原路二段",
-        "price": "13,000元",
-        "room_type": "整層住家/華廈",
-        "layout": "3房2廳2衛",
-        "size": "32坪",
-        "floor": "8/9樓",
-        "update_time": "14小時前更新",
-        "view_count": 0
-      },
-      {
         "title": "龍潭市心麥當勞旁【全新套房】┌租┐18000元含管",
         "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=00cced31208665e&from=v1",
         "address": "華南路一段",
@@ -12144,6 +12132,18 @@
         "layout": "1衛",
         "size": "10坪",
         "floor": "4/5樓",
+        "update_time": "14小時前更新",
+        "view_count": 0
+      },
+      {
+        "title": "渴望旁三房電梯華廈 ┌租┐13000元/月(含管)",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=032262311482689&from=v1",
+        "address": "中原路二段",
+        "price": "13,000元",
+        "room_type": "整層住家/華廈",
+        "layout": "3房2廳2衛",
+        "size": "32坪",
+        "floor": "8/9樓",
         "update_time": "14小時前更新",
         "view_count": 0
       },
@@ -12426,18 +12426,6 @@
         "view_count": 0
       },
       {
-        "title": "幸福公園７森友會兩房車位",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=06057f30452663d&from=v1",
-        "address": "埔頂路一段",
-        "price": "18,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "2房2廳1衛",
-        "size": "32.44坪",
-        "floor": "5/15樓",
-        "update_time": "23小時前更新",
-        "view_count": 2
-      },
-      {
         "title": "大溪鎮上３房",
         "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=056a8a298935215&from=v1",
         "address": "和二路",
@@ -12446,6 +12434,18 @@
         "layout": "3房2廳1衛",
         "size": "30.19坪",
         "floor": "2/2樓",
+        "update_time": "23小時前更新",
+        "view_count": 2
+      },
+      {
+        "title": "幸福公園７森友會兩房車位",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=06057f30452663d&from=v1",
+        "address": "埔頂路一段",
+        "price": "18,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "2房2廳1衛",
+        "size": "32.44坪",
+        "floor": "5/15樓",
         "update_time": "23小時前更新",
         "view_count": 2
       }
@@ -12460,7 +12460,7 @@
         "layout": "4房2廳4衛",
         "size": "46.99坪",
         "floor": "整棟/4樓",
-        "update_time": "12分鐘前更新",
+        "update_time": "19分鐘前更新",
         "view_count": 3
       },
       {
@@ -12484,7 +12484,7 @@
         "layout": "1房1廳1衛",
         "size": "6坪",
         "floor": "2/5樓",
-        "update_time": "6小時前更新",
+        "update_time": "7小時前更新",
         "view_count": 2
       },
       {
@@ -12496,7 +12496,7 @@
         "layout": "3房1廳2衛",
         "size": "14.94坪",
         "floor": "2/5樓",
-        "update_time": "6小時前更新",
+        "update_time": "7小時前更新",
         "view_count": 3
       },
       {
@@ -12508,7 +12508,7 @@
         "layout": "1房1衛",
         "size": "5.5坪",
         "floor": "1~5/5樓",
-        "update_time": "6小時前更新",
+        "update_time": "7小時前更新",
         "view_count": 3
       },
       {
@@ -12714,7 +12714,7 @@
         "layout": "開放式格局",
         "size": "200坪",
         "floor": "1~3/3樓",
-        "update_time": "12小時前更新",
+        "update_time": "13小時前更新",
         "view_count": 2
       },
       {
@@ -12776,7 +12776,7 @@
         "layout": "2房1廳2衛",
         "size": "27.1坪",
         "floor": "8/11樓",
-        "update_time": "7分鐘前更新",
+        "update_time": "19分鐘前更新",
         "view_count": 2
       },
       {
@@ -12812,7 +12812,7 @@
         "layout": "2房2廳2衛",
         "size": "34.97坪",
         "floor": "10/14樓",
-        "update_time": "10小時前更新",
+        "update_time": "11小時前更新",
         "view_count": 2
       },
       {
@@ -13008,18 +13008,6 @@
         "view_count": 0
       },
       {
-        "title": "璟都文華美三房車位",
-        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0e592f309658151&from=v1",
-        "address": "環區西路",
-        "price": "32,000元",
-        "room_type": "整層住家/電梯大廈",
-        "layout": "3房2廳2衛",
-        "size": "44.58坪",
-        "floor": "9/11樓",
-        "update_time": "23小時前更新",
-        "view_count": 1
-      },
-      {
         "title": "書法公園旁兩房有車位",
         "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0b2460303543064&from=v1",
         "address": "領航北路四段",
@@ -13030,6 +13018,18 @@
         "floor": "5/8樓",
         "update_time": "23小時前更新",
         "view_count": 2
+      },
+      {
+        "title": "璟都文華美三房車位",
+        "link": "https://www.rakuya.com.tw/rent/rent_item?ehid=0e592f309658151&from=v1",
+        "address": "環區西路",
+        "price": "32,000元",
+        "room_type": "整層住家/電梯大廈",
+        "layout": "3房2廳2衛",
+        "size": "44.58坪",
+        "floor": "9/11樓",
+        "update_time": "23小時前更新",
+        "view_count": 1
       },
       {
         "title": "【神馬】青埔未來青線捷運三角窗2F大店面",
