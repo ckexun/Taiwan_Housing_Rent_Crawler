@@ -48,6 +48,11 @@ jobs:
             any::geosphere
             any::readr
             any::jsonlite
+            any::tidyr
+            any::vroom
+            any::tzdb
+            any::cpp11
+            any::progress
             any::renv
             any::rsconnect
           needs: deployment
