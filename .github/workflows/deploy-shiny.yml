@@ -64,15 +64,19 @@ jobs:
           SHINYAPPS_SECRET:  ${{ secrets.SHINYAPPS_SECRET }}
           SHINYAPPS_APPNAME: ${{ secrets.SHINYAPPS_APPNAME }}
         run: |
-          R -q -e "library(rsconnect);
-                   rsconnect::setAccountInfo(
-                     name   = Sys.getenv('SHINYAPPS_ACCOUNT'),
-                     token  = Sys.getenv('SHINYAPPS_TOKEN'),
-                     secret = Sys.getenv('SHINYAPPS_SECRET'),
-                     server = 'shinyapps.io'
-                   );
-                   rsconnect::deployApp(
-                     appDir   = '.',
-                     appName  = Sys.getenv('SHINYAPPS_APPNAME'),
-                     forceUpdate = TRUE
-                   )"
+            R -q -e "options(repos = c(CRAN = 'https://cloud.r-project.org')); \
+                     Sys.unsetenv('RSPM'); \
+                     Sys.unsetenv('RENV_CONFIG_REPOS_OVERRIDE'); \
+                     library(rsconnect); \
+                     rsconnect::setAccountInfo( \
+                       name   = Sys.getenv('SHINYAPPS_ACCOUNT'), \
+                       token  = Sys.getenv('SHINYAPPS_TOKEN'), \
+                       secret = Sys.getenv('SHINYAPPS_SECRET'), \
+                       server = 'shinyapps.io' \
+                     ); \
+                     rsconnect::writeManifest(appDir='.', force=TRUE); \
+                     rsconnect::deployApp( \
+                       appDir='.', \
+                       appName=Sys.getenv('SHINYAPPS_APPNAME'), \
+                       forceUpdate=TRUE \
+                     )"
