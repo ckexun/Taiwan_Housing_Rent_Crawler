@@ -77,6 +77,5 @@ jobs:
                      appDir        = '.',
                      appName       = Sys.getenv('SHINYAPPS_APPNAME'),
                      envManagement = 'none',
-                     forceUpdate   = TRUE,
-                     repos         = c(CRAN = 'https://cloud.r-project.org')
+                     forceUpdate   = TRUE
                    )"
