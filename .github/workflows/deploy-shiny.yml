@@ -4,8 +4,10 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'shiny_app/**'
-  workflow_dispatch:
+      - 'shiny_app/**'        
+      # - 'api.csv'            
+      # - 'data/**'
+  workflow_dispatch:            # 允許手動執行
 
 jobs:
   build-deploy:
@@ -18,7 +20,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install system libraries (for curl/openssl/xml2)
+      - name: Install system libraries (curl/openssl/xml2)
         run: |
           sudo apt-get update
           sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
@@ -26,18 +28,28 @@ jobs:
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
         with:
-          use-public-rspm: true   # 取用二進位套件，安裝更穩更快
+          use-public-rspm: true   # 取用二進位套件，較穩、較快
 
       - name: Setup pandoc
         uses: r-lib/actions/setup-pandoc@v2
 
-      # 自動安裝 R 相依（含 rsconnect 與它的依賴）
-      - name: Install R package deps (rsconnect)
+      # 安裝 Shiny App 需要的 R 套件（含依賴）
+      - name: Install R deps for the Shiny app
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          extra-packages: |
+          packages: |
+            any::shiny
+            any::shinydashboard
+            any::leaflet
+            any::plotly
+            any::DT
+            any::dplyr
+            any::ggplot2
+            any::geosphere
+            any::readr
+            any::jsonlite
+            any::renv
             any::rsconnect
-            any::curl
           needs: deployment
 
       - name: Deploy to shinyapps.io
@@ -47,8 +59,15 @@ jobs:
           SHINYAPPS_SECRET:  ${{ secrets.SHINYAPPS_SECRET }}
           SHINYAPPS_APPNAME: ${{ secrets.SHINYAPPS_APPNAME }}
         run: |
-          R -q -e "library(rsconnect); \
-                   rsconnect::setAccountInfo(name=Sys.getenv('SHINYAPPS_ACCOUNT'), \
-                                             token=Sys.getenv('SHINYAPPS_TOKEN'), \
-                                             secret=Sys.getenv('SHINYAPPS_SECRET')); \
-                   rsconnect::deployApp(appDir='.', appName=Sys.getenv('SHINYAPPS_APPNAME'), forceUpdate=TRUE)"
+          R -q -e "library(rsconnect);
+                   rsconnect::setAccountInfo(
+                     name   = Sys.getenv('SHINYAPPS_ACCOUNT'),
+                     token  = Sys.getenv('SHINYAPPS_TOKEN'),
+                     secret = Sys.getenv('SHINYAPPS_SECRET'),
+                     server = 'shinyapps.io'
+                   );
+                   rsconnect::deployApp(
+                     appDir   = '.',
+                     appName  = Sys.getenv('SHINYAPPS_APPNAME'),
+                     forceUpdate = TRUE
+                   )"
