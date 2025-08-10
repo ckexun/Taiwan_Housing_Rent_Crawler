@@ -63,15 +63,20 @@ jobs:
         run: |
           rm -f renv.lock
           rm -rf renv packrat
-          Rscript -e "library(rsconnect);
+          Rscript -e "options(repos = c(CRAN = 'https://cloud.r-project.org'));
+                      Sys.unsetenv('RSPM');
+                      Sys.unsetenv('RENV_CONFIG_REPOS_OVERRIDE');
+                      library(rsconnect);
                       rsconnect::setAccountInfo(
                         name = Sys.getenv('SHINYAPPS_ACCOUNT'),
                         token = Sys.getenv('SHINYAPPS_TOKEN'),
                         secret = Sys.getenv('SHINYAPPS_SECRET')
                       );
+                      rsconnect::writeManifest(appDir = '.');
                       rsconnect::deployApp(
                         appDir = '.',
                         appName = Sys.getenv('SHINYAPPS_APPNAME'),
                         envManagement = 'none',
                         forceUpdate = TRUE
                       )"
+
