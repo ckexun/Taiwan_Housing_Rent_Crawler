@@ -28,31 +28,26 @@ jobs:
         with:
           use-public-rspm: false
 
-      - name: Write .Rprofile
-        run: echo 'options(repos = c(CRAN = "https://cloud.r-project.org"))' > .Rprofile
+      - name: Reset renv state
+        run: |
+          rm -f renv.lock
+          rm -rf renv
 
-
-      - name: Install deps on runner
+      - name: Init renv and install deps into project library
+        env:
+          RENV_CONFIG_REPOS_OVERRIDE: https://cloud.r-project.org
         run: |
           Rscript -e "options(repos=c(CRAN='https://cloud.r-project.org'));
-                      install.packages(c(
-                        'renv','rsconnect',
+                      if (!requireNamespace('renv', quietly=TRUE)) install.packages('renv', repos='https://cloud.r-project.org');
+                      renv::init(bare=TRUE)"
+          Rscript -e "renv::install(c(
+                        'rsconnect',
                         'shiny','shinydashboard','leaflet','plotly','DT',
                         'dplyr','ggplot2','geosphere','readr','jsonlite',
                         'tidyr','vroom','tzdb','cpp11','progress'
                       ))"
-
-      - name: Freeze deps with renv.lock (force CRAN URL)
-        run: |
-          Rscript -e "options(repos=c(CRAN='https://cloud.r-project.org'));
-                      Sys.setenv(RENV_CONFIG_REPOS_OVERRIDE='https://cloud.r-project.org');
-                      if (!requireNamespace('renv', quietly=TRUE)) stop('renv not installed');
-                      renv::init(bare=TRUE)
-                      "
-          Rscript -e "Sys.setenv(RENV_CONFIG_REPOS_OVERRIDE='https://cloud.r-project.org');
-                      renv::snapshot(prompt=FALSE)
-                      "
-          # 檢查 lockfile 內的 Repositories 區塊，應該要看到 cloud.r-project.org
+          Rscript -e "renv::snapshot(prompt=FALSE)"
+          # 檢查 lockfile 的 repo，應該要是 cloud.r-project.org
           sed -n '/\"Repositories\"/,+6p' renv.lock || true
 
       - name: Deploy to shinyapps.io
