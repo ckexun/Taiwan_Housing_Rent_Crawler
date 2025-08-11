@@ -71,21 +71,22 @@ jobs:
           Rscript -e "rsconnect::setAccountInfo(name=Sys.getenv('SHINYAPPS_ACCOUNT'), token=Sys.getenv('SHINYAPPS_TOKEN'), secret=Sys.getenv('SHINYAPPS_SECRET'))"
           Rscript -e "rsconnect::deployApp(appDir='.', appName=Sys.getenv('SHINYAPPS_APPNAME'), forceUpdate=TRUE)"
 
-      - name: Show actual app URL
+      - name: Resolve & check Shiny URL
         env:
           SHINYAPPS_ACCOUNT: ${{ secrets.SHINYAPPS_ACCOUNT }}
+          SHINYAPPS_TOKEN:   ${{ secrets.SHINYAPPS_TOKEN }}
+          SHINYAPPS_SECRET:  ${{ secrets.SHINYAPPS_SECRET }}
           SHINYAPPS_APPNAME: ${{ secrets.SHINYAPPS_APPNAME }}
         run: |
-          Rscript -e "apps <- rsconnect::applications(account=Sys.getenv('SHINYAPPS_ACCOUNT')); \
-                      url <- subset(apps, name==Sys.getenv('SHINYAPPS_APPNAME'))\$url; \
-                      cat('Resolved URL:', url, '\n')"
+          Rscript -e "rsconnect::setAccountInfo(name=Sys.getenv('SHINYAPPS_ACCOUNT'), token=Sys.getenv('SHINYAPPS_TOKEN'), secret=Sys.getenv('SHINYAPPS_SECRET'))"
 
-      - name: Verify URL responds
-        run: |
-          URL=$(Rscript -e "apps <- rsconnect::applications(account=Sys.getenv('SHINYAPPS_ACCOUNT')); \
-                            cat(subset(apps, name==Sys.getenv('SHINYAPPS_APPNAME'))\$url)")
-          echo "Checking: $URL"
-          # shinyapps 部署完會冷啟，給它一點時間
+          URL=$(Rscript -e "apps <- rsconnect::applications(); \
+                            app <- subset(apps, name==Sys.getenv('SHINYAPPS_APPNAME')); \
+                            if (nrow(app)==0) app <- head(apps,1); \
+                            cat(app\$url)")
+          echo "Resolved URL: $URL"
+          echo "Resolved URL: $URL" >> $GITHUB_STEP_SUMMARY
           sleep 10
           curl -I --retry 10 --retry-connrefused --retry-delay 3 "$URL"
+
 
