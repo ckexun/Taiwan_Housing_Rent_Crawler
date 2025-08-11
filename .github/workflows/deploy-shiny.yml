@@ -15,7 +15,7 @@ jobs:
         working-directory: shiny_app
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Install system libraries
@@ -28,51 +28,18 @@ jobs:
         with:
           use-public-rspm: false
 
-      - name: Setup pandoc
+      - name: Setup Pandoc
         uses: r-lib/actions/setup-pandoc@v2
 
-      - name: Install R deps
-        uses: r-lib/actions/setup-r-dependencies@v2
-        with:
-          packages: |
-            any::shiny
-            any::shinydashboard
-            any::leaflet
-            any::plotly
-            any::DT
-            any::dplyr
-            any::ggplot2
-            any::geosphere
-            any::readr
-            any::jsonlite
-            any::tidyr
-            any::vroom
-            any::tzdb
-            any::cpp11
-            any::progress
-            any::renv
-            any::rsconnect
-          needs: deployment
-
-      - name: Deploy to shinyapps.io
-        env:
-          SHINYAPPS_ACCOUNT: ${{ secrets.SHINYAPPS_ACCOUNT }}
-          SHINYAPPS_TOKEN:   ${{ secrets.SHINYAPPS_TOKEN }}
-          SHINYAPPS_SECRET:  ${{ secrets.SHINYAPPS_SECRET }}
-          SHINYAPPS_APPNAME: ${{ secrets.SHINYAPPS_APPNAME }}
+      - name: Set CRAN mirror
         run: |
           echo 'options(repos = c(CRAN = "https://cloud.r-project.org"))' > .Rprofile
-          rm -f renv.lock
-          rm -rf renv packrat
-          Rscript -e "library(rsconnect);
-                      rsconnect::setAccountInfo(
-                        name = Sys.getenv('SHINYAPPS_ACCOUNT'),
-                        token = Sys.getenv('SHINYAPPS_TOKEN'),
-                        secret = Sys.getenv('SHINYAPPS_SECRET')
-                      );
-                      rsconnect::deployApp(
-                        appDir = '.',
-                        appName = Sys.getenv('SHINYAPPS_APPNAME'),
-                        envManagement = 'none',
-                        forceUpdate = TRUE
-                      )"
+
+      - name: Deploy to shinyapps.io
+        uses: qwert666/shinyapps-actions@v1.0.0
+        with:
+          account-name: ${{ secrets.SHINYAPPS_ACCOUNT }}
+          token:        ${{ secrets.SHINYAPPS_TOKEN }}
+          secret:       ${{ secrets.SHINYAPPS_SECRET }}
+          app-name:     ${{ secrets.SHINYAPPS_APPNAME }}
+          app-dir:      '.'
