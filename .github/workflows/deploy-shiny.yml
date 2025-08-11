@@ -1,24 +1,24 @@
-name: Deploy Shiny to shinyapps.io
+name: Deploy Shiny App to shinyapps.io
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
     paths:
       - 'shiny_app/**'
   workflow_dispatch:
 
 jobs:
-  build-deploy:
+  deploy:
     runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: shiny_app
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Install system libraries
+      - name: Install system dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
@@ -28,18 +28,45 @@ jobs:
         with:
           use-public-rspm: false
 
-      - name: Setup Pandoc
-        uses: r-lib/actions/setup-pandoc@v2
+      - name: Install R packages
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::rsconnect
+            any::shiny
+            any::dplyr
+            any::ggplot2
+            any::geosphere
+            any::plotly
+            any::leaflet
+            any::shinydashboard
+            any::readr
+            any::tidyr
+            any::jsonlite
+            any::vroom
+            any::tzdb
+            any::cpp11
+            any::progress
 
-      - name: Set CRAN mirror
-        run: |
-          echo 'options(repos = c(CRAN = "https://cloud.r-project.org"))' > .Rprofile
+      - name: Create .Rprofile for CRAN repo
+        run: echo 'options(repos = c(CRAN = "https://cloud.r-project.org"))' > .Rprofile
 
       - name: Deploy to shinyapps.io
-        uses: qwert666/shinyapps-actions@main
-        with:
-          SHINY_USERNAME: ${{ secrets.SHINYAPPS_ACCOUNT }}
-          SHINY_TOKEN:    ${{ secrets.SHINYAPPS_TOKEN }}
-          SHINY_SECRET:   ${{ secrets.SHINYAPPS_SECRET }}
-          APP_NAME:       ${{ secrets.SHINYAPPS_APPNAME }}
-          APP_DIR:        shiny_app
+        env:
+          SHINYAPPS_ACCOUNT: ${{ secrets.SHINYAPPS_ACCOUNT }}
+          SHINYAPPS_TOKEN: ${{ secrets.SHINYAPPS_TOKEN }}
+          SHINYAPPS_SECRET: ${{ secrets.SHINYAPPS_SECRET }}
+          SHINYAPPS_APPNAME: ${{ secrets.SHINYAPPS_APPNAME }}
+        run: |
+          Rscript -e "library(rsconnect);
+                      rsconnect::setAccountInfo(
+                        name   = Sys.getenv('SHINYAPPS_ACCOUNT'),
+                        token  = Sys.getenv('SHINYAPPS_TOKEN'),
+                        secret = Sys.getenv('SHINYAPPS_SECRET')
+                      );
+                      rsconnect::deployApp(
+                        appDir        = '.',
+                        appName       = Sys.getenv('SHINYAPPS_APPNAME'),
+                        envManagement = 'none',
+                        forceUpdate   = TRUE
+                      )"
