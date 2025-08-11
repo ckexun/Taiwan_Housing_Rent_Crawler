@@ -2,7 +2,7 @@ name: Deploy Shiny App to shinyapps.io
 
 on:
   push:
-    branches: [main]
+    branches: [ main ]
     paths:
       - 'shiny_app/**'
   workflow_dispatch:
@@ -28,45 +28,29 @@ jobs:
         with:
           use-public-rspm: false
 
-      - name: Install R packages
-        uses: r-lib/actions/setup-r-dependencies@v2
-        with:
-          packages: |
-            any::rsconnect
-            any::shiny
-            any::dplyr
-            any::ggplot2
-            any::geosphere
-            any::plotly
-            any::leaflet
-            any::shinydashboard
-            any::readr
-            any::tidyr
-            any::jsonlite
-            any::vroom
-            any::tzdb
-            any::cpp11
-            any::progress
+      - name: Set CRAN mirror (.Rprofile in app dir)
+        run: |
+          echo 'options(repos = c(CRAN = "https://cloud.r-project.org"))' > .Rprofile
 
-      - name: Create .Rprofile for CRAN repo
-        run: echo 'options(repos = c(CRAN = "https://cloud.r-project.org"))' > .Rprofile
+      - name: Freeze deps with renv.lock (pin to CRAN)
+        run: |
+          Rscript -e "options(repos=c(CRAN='https://cloud.r-project.org')); \
+                      install.packages(c('renv','rsconnect','shiny','shinydashboard','leaflet','plotly','DT','dplyr','ggplot2','geosphere','readr','jsonlite','tidyr','vroom','tzdb','cpp11','progress')); \
+                      if (!requireNamespace('renv', quietly=TRUE)) stop('renv not installed'); \
+                      renv::init(bare=TRUE); \
+                      renv::snapshot(prompt=FALSE)"
+          # 檢查一下 lockfile 內的 repo 是否為 cloud CRAN（可留可拿掉）
+          grep -A2 '"Repositories"' renv.lock || true
 
-      - name: Deploy to shinyapps.io
+      - name: Deploy to shinyapps.io (use renv.lock)
         env:
           SHINYAPPS_ACCOUNT: ${{ secrets.SHINYAPPS_ACCOUNT }}
-          SHINYAPPS_TOKEN: ${{ secrets.SHINYAPPS_TOKEN }}
-          SHINYAPPS_SECRET: ${{ secrets.SHINYAPPS_SECRET }}
+          SHINYAPPS_TOKEN:   ${{ secrets.SHINYAPPS_TOKEN }}
+          SHINYAPPS_SECRET:  ${{ secrets.SHINYAPPS_SECRET }}
           SHINYAPPS_APPNAME: ${{ secrets.SHINYAPPS_APPNAME }}
         run: |
-          Rscript -e "library(rsconnect);
-                      rsconnect::setAccountInfo(
-                        name   = Sys.getenv('SHINYAPPS_ACCOUNT'),
-                        token  = Sys.getenv('SHINYAPPS_TOKEN'),
-                        secret = Sys.getenv('SHINYAPPS_SECRET')
-                      );
-                      rsconnect::deployApp(
-                        appDir        = '.',
-                        appName       = Sys.getenv('SHINYAPPS_APPNAME'),
-                        envManagement = 'none',
-                        forceUpdate   = TRUE
-                      )"
+          Rscript -e "library(rsconnect); \
+                      rsconnect::setAccountInfo(name=Sys.getenv('SHINYAPPS_ACCOUNT'), \
+                                                token=Sys.getenv('SHINYAPPS_TOKEN'), \
+                                                secret=Sys.getenv('SHINYAPPS_SECRET')); \
+                      rsconnect::deployApp(appDir='.', appName=Sys.getenv('SHINYAPPS_APPNAME'), forceUpdate=TRUE)"
