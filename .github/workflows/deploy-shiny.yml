@@ -36,10 +36,10 @@ jobs:
           echo 'options(repos = c(CRAN = "https://cloud.r-project.org"))' > .Rprofile
 
       - name: Deploy to shinyapps.io
-        uses: qwert666/shinyapps-actions@v1.0.0
+        uses: qwert666/shinyapps-actions@main
         with:
-          account-name: ${{ secrets.SHINYAPPS_ACCOUNT }}
-          token:        ${{ secrets.SHINYAPPS_TOKEN }}
-          secret:       ${{ secrets.SHINYAPPS_SECRET }}
-          app-name:     ${{ secrets.SHINYAPPS_APPNAME }}
-          app-dir:      '.'
+          SHINY_USERNAME: ${{ secrets.SHINYAPPS_ACCOUNT }}
+          SHINY_TOKEN:    ${{ secrets.SHINYAPPS_TOKEN }}
+          SHINY_SECRET:   ${{ secrets.SHINYAPPS_SECRET }}
+          APP_NAME:       ${{ secrets.SHINYAPPS_APPNAME }}
+          APP_DIR:        shiny_app
