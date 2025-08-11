@@ -15,10 +15,10 @@ jobs:
         working-directory: shiny_app
 
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install system dependencies
+      - name: System libs
         run: |
           sudo apt-get update
           sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
@@ -28,29 +28,48 @@ jobs:
         with:
           use-public-rspm: false
 
-      - name: Set CRAN mirror (.Rprofile in app dir)
-        run: |
-          echo 'options(repos = c(CRAN = "https://cloud.r-project.org"))' > .Rprofile
+      - name: Write .Rprofile
+        run: echo 'options(repos = c(CRAN = "https://cloud.r-project.org"))' > .Rprofile
 
-      - name: Freeze deps with renv.lock (pin to CRAN)
-        run: |
-          Rscript -e "options(repos=c(CRAN='https://cloud.r-project.org')); \
-                      install.packages(c('renv','rsconnect','shiny','shinydashboard','leaflet','plotly','DT','dplyr','ggplot2','geosphere','readr','jsonlite','tidyr','vroom','tzdb','cpp11','progress')); \
-                      if (!requireNamespace('renv', quietly=TRUE)) stop('renv not installed'); \
-                      renv::init(bare=TRUE); \
-                      renv::snapshot(prompt=FALSE)"
-          # 檢查一下 lockfile 內的 repo 是否為 cloud CRAN（可留可拿掉）
-          grep -A2 '"Repositories"' renv.lock || true
 
-      - name: Deploy to shinyapps.io (use renv.lock)
+      - name: Install deps on runner
+        run: |
+          Rscript -e "options(repos=c(CRAN='https://cloud.r-project.org'));
+                      install.packages(c(
+                        'renv','rsconnect',
+                        'shiny','shinydashboard','leaflet','plotly','DT',
+                        'dplyr','ggplot2','geosphere','readr','jsonlite',
+                        'tidyr','vroom','tzdb','cpp11','progress'
+                      ))"
+
+      - name: Freeze deps with renv.lock (force CRAN URL)
+        run: |
+          Rscript -e "options(repos=c(CRAN='https://cloud.r-project.org'));
+                      Sys.setenv(RENV_CONFIG_REPOS_OVERRIDE='https://cloud.r-project.org');
+                      if (!requireNamespace('renv', quietly=TRUE)) stop('renv not installed');
+                      renv::init(bare=TRUE)
+                      "
+          Rscript -e "Sys.setenv(RENV_CONFIG_REPOS_OVERRIDE='https://cloud.r-project.org');
+                      renv::snapshot(prompt=FALSE)
+                      "
+          # 檢查 lockfile 內的 Repositories 區塊，應該要看到 cloud.r-project.org
+          sed -n '/\"Repositories\"/,+6p' renv.lock || true
+
+      - name: Deploy to shinyapps.io
         env:
           SHINYAPPS_ACCOUNT: ${{ secrets.SHINYAPPS_ACCOUNT }}
           SHINYAPPS_TOKEN:   ${{ secrets.SHINYAPPS_TOKEN }}
           SHINYAPPS_SECRET:  ${{ secrets.SHINYAPPS_SECRET }}
           SHINYAPPS_APPNAME: ${{ secrets.SHINYAPPS_APPNAME }}
         run: |
-          Rscript -e "library(rsconnect); \
-                      rsconnect::setAccountInfo(name=Sys.getenv('SHINYAPPS_ACCOUNT'), \
-                                                token=Sys.getenv('SHINYAPPS_TOKEN'), \
-                                                secret=Sys.getenv('SHINYAPPS_SECRET')); \
-                      rsconnect::deployApp(appDir='.', appName=Sys.getenv('SHINYAPPS_APPNAME'), forceUpdate=TRUE)"
+          Rscript -e "library(rsconnect);
+                      rsconnect::setAccountInfo(
+                        name   = Sys.getenv('SHINYAPPS_ACCOUNT'),
+                        token  = Sys.getenv('SHINYAPPS_TOKEN'),
+                        secret = Sys.getenv('SHINYAPPS_SECRET')
+                      );
+                      rsconnect::deployApp(
+                        appDir   = '.',
+                        appName  = Sys.getenv('SHINYAPPS_APPNAME'),
+                        forceUpdate = TRUE
+                      )"
