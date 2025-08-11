@@ -62,19 +62,14 @@ jobs:
           SHINYAPPS_APPNAME: ${{ secrets.SHINYAPPS_APPNAME }}
         run: |
           echo 'options(repos = c(CRAN = "https://cloud.r-project.org"))' > .Rprofile
-          echo 'Sys.unsetenv("RSPM")' >> .Rprofile
-          echo 'Sys.unsetenv("RENV_CONFIG_REPOS_OVERRIDE")' >> .Rprofile
-          echo 'Sys.setenv(RSCONNECT_DEPLOY_REPO_OVERRIDE = "https://cloud.r-project.org")' >> .Rprofile
-
+          rm -f renv.lock
+          rm -rf renv packrat
           Rscript -e "library(rsconnect);
                       rsconnect::setAccountInfo(
                         name = Sys.getenv('SHINYAPPS_ACCOUNT'),
                         token = Sys.getenv('SHINYAPPS_TOKEN'),
                         secret = Sys.getenv('SHINYAPPS_SECRET')
                       );
-                      rsconnect::writeManifest(appDir = '.')"
-
-          Rscript -e "library(rsconnect);
                       rsconnect::deployApp(
                         appDir = '.',
                         appName = Sys.getenv('SHINYAPPS_APPNAME'),
