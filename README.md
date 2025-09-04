@@ -9,7 +9,8 @@ MOI Real Estate Transaction info: [https://raw.githubusercontent.com/ckexun/Taiw
 ---
 
 ## Environment
-![Python Badge](https://img.shields.io/badge/Python-3.12.9-blue)
+![Python Badge](https://img.shields.io/badge/Python-3.12.9-blue) ![R Badge](https://img.shields.io/badge/R-4.4.1-blue)
+
 
 ---
 
