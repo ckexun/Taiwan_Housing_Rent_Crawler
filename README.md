@@ -1,7 +1,7 @@
 # Taiwan Housing Rent Dashboard
 >Update time: 2025-08-13
 
-An integrated housing rental data crawler for Taiwan, combining the private platform Rakuya (樂屋網) and the official Ministry of the Interior (MOI) Real Estate Transaction API to collect and analyze daily market data.
+An integrated housing rental data crawler for Taiwan, combining the private platform Rakuya (樂屋網) and the official Ministry of the Interior (MOI) Real Estate Transaction API to collect and analyze daily market data.It builds an automated pipeline for data collection, cleaning, and visualization, and provides an R Shiny dashboard on [shinyapps.io](https://www.shinyapps.io/) for interactive exploration.
 
 Rakuya info: [https://raw.githubusercontent.com/ckexun/Taiwan_Housing_Rent_Crawler/refs/heads/main/static.json](https://raw.githubusercontent.com/ckexun/Taiwan_Housing_Rent_Crawler/refs/heads/main/static.json)
 MOI Real Estate Transaction info: [https://raw.githubusercontent.com/ckexun/Taiwan_Housing_Rent_Crawler/refs/heads/main/api.csv](https://raw.githubusercontent.com/ckexun/Taiwan_Housing_Rent_Crawler/refs/heads/main/api.csv)
@@ -47,6 +47,20 @@ To build a robust, automated rental housing data pipeline by integrating both **
 
 ---
 
+## Shiny App Deployment
+An R Shiny dashboard is deployed via GitHub Actions on [shinyapps.io](https://www.shinyapps.io/)
+
+### Features
+- Leaflet map: geographic rental distribution
+- Plotly charts: rent trends and comparisons
+- Interactive filters: by building type, rent range, location
+- DataTables: explore detailed rental data
+
+### GitHub Actions Workflow
+The deployment is fully automated.
+
+---
+
 ## Methods & Tools
 
 ### Data Sources
@@ -60,3 +74,4 @@ To build a robust, automated rental housing data pipeline by integrating both **
 2. **API Fetcher**: Calls the MOI Real Price Registration API to fetch government-backed rental data.
 3. **GitHub Actions Scheduler**: Automates data updates every morning at 8 AM.
 4. **Data Analysis (with Pandas)**: Cleans and summarizes rental statistics including average rent, layout distribution, etc.
+5. **Interactive Dashboard**: R Shiny visualization
